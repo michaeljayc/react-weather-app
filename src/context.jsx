@@ -4,8 +4,8 @@ import reducer from "./reducer";
 import {
   getLocationDetails,
   getLocationWeatherData,
-} from "./assets/utils/weatherUtils";
-import transformData from "./assets/utils/transformData";
+} from "./utils/weatherUtils";
+import transformData from "./utils/transformData";
 
 const defaultState = {
   isLoading: false,

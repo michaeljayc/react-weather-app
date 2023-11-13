@@ -1,7 +1,7 @@
-import { useGlobalContext } from "../../context";
+import { useGlobalContext } from "../context";
 
-import sunrise from "../../images/sunrise.png";
-import sunset from "../../images/sunset.png";
+import sunrise from "../assets/images/sunrise.png";
+import sunset from "../assets/images/sunset.png";
 
 const Weather = () => {
   const { state } = useGlobalContext();

@@ -1,6 +1,6 @@
-import Form from "./assets/components/Form";
-import Weather from "./assets/components/Weather";
-import Navbar from "./assets/components/Navbar";
+import Form from "./components/Form";
+import Weather from "./components/Weather";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (

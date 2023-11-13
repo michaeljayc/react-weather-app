@@ -1,4 +1,4 @@
-import { useGlobalContext } from "../../context";
+import { useGlobalContext } from "../context";
 
 const Form = () => {
   const { getWeatherDetails } = useGlobalContext();
