@@ -251,3 +251,143 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+/** PROJECT CSS **/
+main {
+  margin: 0 auto;
+}
+nav {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+
+nav h3 {
+  color: var(--black);
+  letter-spacing: var(--letterSpacing);
+}
+
+.weather-container {
+  height: calc(100vh-5rem);
+  width: var(--view-width);
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 2rem 0;
+  background-color: rgb(27, 63, 97);
+  border-radius: var(--borderRadius);
+}
+
+.weather-form {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  background: var(--grey-300);
+  border-color: transparent;
+  border-width: 2px;
+}
+
+.weather-details {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: var(--fixed-width);
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  padding: 2rem 2rem;
+}
+
+.date-time {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--fixed-width);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  line-height: 2rem;
+}
+
+.date-time h4 {
+  letter-spacing: var(--letterSpacing);
+  font-weight: 600;
+}
+
+.weather-status {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--fixed-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1rem;
+}
+
+.weather-desc-row1 {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  letter-spacing: var(--letterSpacing);
+}
+
+.weather-desc-row2 {
+  margin: 0 auto;
+  align-items: center;
+  line-height: 1.5rem;
+  letter-spacing: var(--letterSpacing);
+  padding: 0 1rem;
+}
+
+.sun-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 1rem;
+}
+
+.sun-desc img {
+  padding: 5px;
+  height: 50px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.sun-desc p {
+  padding: 5px;
+  font-size: 0.9rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+.others {
+  width: 100%;
+  max-width: var(--fixed-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+.others-col {
+  line-height: 1.5rem;
+  text-align: center;
+  letter-spacing: var(--letterSpacing);
+}
+
+.others-col-desc {
+  font-size: var(--small-text);
+}
